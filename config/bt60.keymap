@@ -29,9 +29,9 @@
 
         func {
             bindings = <
-&kp GRAVE  &kp F1        &kp F2      &kp F3         &kp F4      &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10    &kp F11    &kp F12      &trans  &kp C_MUTE
-&trans     &kp C_VOL_DN  &kp UP      &kp C_VOL_UP   &kp C_MUTE  &trans  &trans  &trans  &trans  &trans  &kp PSCRN  &kp HOME   &kp PG_UP    &trans
-&kp CAPS   &kp LEFT      &kp DOWN    &kp RIGHT      &kp K_PP    &to 3   &trans  &trans  &trans  &trans  &kp END    &kp PG_DN  &bootloader
+&kp GRAVE  &kp F1        &kp F2      &kp F3         &kp F4      &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10    &kp F11    &kp F12    &trans  &kp C_MUTE
+&trans     &kp C_VOL_DN  &kp UP      &kp C_VOL_UP   &kp C_MUTE  &trans  &trans  &trans  &trans  &trans  &kp PSCRN  &kp HOME   &kp PG_UP  &trans
+&kp CAPS   &kp LEFT      &kp DOWN    &kp RIGHT      &kp K_PP    &to 3   &trans  &trans  &trans  &trans  &kp END    &kp PG_DN  &trans
 &trans     &kp K_PREV    &kp K_PREV  &kp C_AL_CALC  &trans      &trans  &trans  &trans  &trans  &trans  &trans     &mo 2      &kp INS
            &trans        &trans      &trans         &trans      &trans  &trans  &trans  &trans
             >;
@@ -44,7 +44,7 @@
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &sys_reset  &bl BL_DEC    &bl BL_INC    &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans      &trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans        &trans        &trans        &trans        &bootloader   &trans  &trans  &trans  &trans  &trans  &trans  &trans
             &trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans
             >;
 
